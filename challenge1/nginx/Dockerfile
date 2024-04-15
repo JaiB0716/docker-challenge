@@ -1,4 +1,2 @@
-FROM node:alpine3.10 
-COPY . /challenge1
-WORKDIR /challenge1
-CMD node index.html
+FROM httpd:2.4
+COPY . /challenge1/ 
